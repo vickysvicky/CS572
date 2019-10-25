@@ -1,0 +1,34 @@
+README
+
+checker.java
+
+----------------------PROGRAM DESCRIPTION-----------------------
+
+This is a Checker game. You can play it in single player or multi-
+player mode.
+
+Single player will be playing with an AI that runs Alpha-Beta
+search to look for the best move against opponent.
+
+Piece to move is selected by typing in the position of the piece.
+If you want to choose the piece at row 5 column 0, just type in
+50. To move it to row 4 column 1, type 41 when prompted.
+
+The game terminates when one side loses its the pieces or when
+user key in 'exit' when asked which piece to move.
+
+
+----------------------------HOW TO------------------------------
+
+The program should be compiled in terminal(have to be in correct
+directory first) with the line below:
+
+	javac checker.java
+
+
+Then run it by calling: 
+
+	java checker
+
+
+
